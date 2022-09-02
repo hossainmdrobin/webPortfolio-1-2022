@@ -2,7 +2,7 @@ import React from 'react'
 import './about.css';
 import me from './../../assets/aboutme.png'
 import {FaAward} from 'react-icons/fa';
-import {FiUser} from 'react-icons/fi';
+import {BiFootball} from 'react-icons/bi';
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
@@ -20,8 +20,8 @@ const About = () => {
           <div className="about__cards">
             <article className='about__card'>
               <FaAward  className='about__icon'/>
-              <h5>Experience</h5>
-              <small>3+ years Working</small>
+              <h5>Education</h5>
+              <small>BSC engineering in ICT at CoU (current)</small>
             </article>
 
             <article className='about__card'>
@@ -31,13 +31,13 @@ const About = () => {
             </article>
 
             <article className='about__card'>
-              <FiUser  className='about__icon'/>
-              <h5>Clients</h5>
-              <small>20+ clients</small>
+              <BiFootball  className='about__icon'/>
+              <h5>Hobby</h5>
+              <small>Playing Football</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto ea deserunt recusandae voluptatem, nobis temporibus mollitia dolorum voluptas maxime repudiandae porro fugiat placeat exercitationem, perspiciatis itaque. Voluptatem explicabo dolorum alias.
+            I am a MERN Stack web developer. I learning it since 2021. I still learning so. I love to learn new technologies
           </p>
           <a href="#contact" className="btn btn-primary">Let's talk</a>
         </div>
